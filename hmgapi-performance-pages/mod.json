@@ -1,0 +1,28 @@
+{
+  "id": "hmgapi-performance-pages",
+  "name": "Performance Pages",
+  "version": "0.1.0-alpha.1",
+  "hmgapi": ">=1.0.0",
+  "authors": [
+    "Nyx-Asteria"
+  ],
+  "repo": "https://github.com/Nyx-Asteria/Kia-Performance-App",
+  "description": "Stage 1 application foundation",
+  "live": true,
+  "apps": [
+    {
+      "apk": "app/Performance.apk",
+      "package": "dev.nyxasteria.performance"
+    }
+  ],
+  "provides": {
+    "launcher": [
+      {
+        "title": "Performance",
+        "package": "dev.nyxasteria.performance",
+        "class": ".MainActivity",
+        "icon": "icons/icon.png"
+      }
+    ]
+  }
+}

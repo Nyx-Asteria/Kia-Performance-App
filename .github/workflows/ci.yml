@@ -1,0 +1,10 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  mod:
+    uses: Open-HMG/HMG-API/.github/workflows/mod.yml@v1.1.0-rc.3
