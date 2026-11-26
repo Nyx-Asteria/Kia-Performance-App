@@ -7,4 +7,4 @@ permissions:
   contents: read
 jobs:
   mod:
-    uses: Open-HMG/HMG-API/.github/workflows/mod.yml@v1.1.0-rc.3
+    uses: Open-HMG/HMG-API/.github/workflows/mod.yml@daa083717f07565ba16dc8a4d26291b7d68d3bf4
